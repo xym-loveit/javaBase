@@ -1,5 +1,5 @@
 # javaBase
-base java study，java基础学习
+base java study，java基础学习:grinning::grin::smile::violin:
 
 1. [第一节](<https://github.com/xym-loveit/javaBase/tree/master/src/main/java/com/xym/javabase/lesson1>)
 2. [第二节](<https://github.com/xym-loveit/javaBase/tree/master/src/main/java/com/xym/javabase/lesson2>)
