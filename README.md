@@ -1,2 +1,2 @@
 # javaBase
-base java study
+base java study，java基础学习
