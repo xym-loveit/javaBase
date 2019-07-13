@@ -47,6 +47,7 @@ public class Main {
         //com.xym.javabase.lesson3.package2.Student student1 = new com.xym.javabase.lesson3.package2.Student();
         //student1.setAge(12);
         //com.xym.javabase.lesson3.package2.Student.print("haha");
+        //new Date();
     }
 }
 
