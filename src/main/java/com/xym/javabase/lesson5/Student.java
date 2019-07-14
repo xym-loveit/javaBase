@@ -1,4 +1,4 @@
-package com.xym.javabase.lesson3.package2;
+package com.xym.javabase.lesson5;
 
 /**
  * 学生类
@@ -49,9 +49,9 @@ public class Student {
      *
      * @param name
      */
-    public void setName(String name) {
+    public void setName(String name) throws StudentException {
         if (name.equals("zhangsan") || name.equals("class")) {
-            throw new IllegalArgumentException("参数设置有误");
+            throw new StudentException("参数设置有误");
         }
         this.name = name;
         System.out.println("this=" + this);
@@ -66,11 +66,11 @@ public class Student {
      *
      * @param age
      */
-    public void setAge(int age) throws IllegalArgumentException {
+    public void setAge(int age) throws StudentException {
         if (age > 1 && age <= 120) {
             this.age = age;
         } else {
-            throw new IllegalArgumentException("年龄设置错误，范围在1到120之间");
+            throw new StudentException("年龄设置错误，范围在1到120之间");
         }
     }
 
